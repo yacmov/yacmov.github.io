@@ -1,0 +1,83 @@
+.bg-pearlbush {
+        background-color: #EADDD7;
+}
+
+.bg-spindle {
+    background-color: #CADBED;
+}
+
+.bg-classicrose {
+    background-color: #FBD0D9;
+}
+
+.bg-berylgreen {
+    background-color: #D2E0B6;
+}
+.text-pearlbush {
+    color: #EADDD7;
+}
+
+.text-spindle {
+    color: #CADBED;
+}
+
+.text-classicrose {
+    color: #FBD0D9;
+}
+
+.text-berylgreen {
+    color: #D2E0B6;
+}
+
+.bg-index{
+    background-color: #CADBED;
+    background-image: url(../img/background/index-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+.bg-contact{
+    background-color: #CADBED;
+    background-image: url(../img/background/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+.bg-about{
+    background-color: #CADBED;
+    background-image: url(../img/background/aboutme-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+.bg-resume{
+    background-color: #CADBED;
+    background-image: url(../img/background/resume-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+.bg-projects{
+    background-color: #CADBED;
+    background-image: url(../img/background/project-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+.bg-mywork{
+    background-color: #CADBED;
+    background-image: url(../img/background/sample-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+
+.my-shadow {
+    text-shadow: 2px 2px 10px gray;
+}

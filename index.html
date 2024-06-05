@@ -1,54 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ages Doesn't Matter</title>
+    <link rel="stylesheet" href="./assets/css/site.css" />
+    <link rel="stylesheet" href="./assets/css/mycss.css" />
+    <script src="./assets/js/script.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="asset/css/main.css" />
-  <script src="asset/JS/main.js"></script>
-  <title>Cedric's Digital House</title>
-</head>
-
-<body>
-  <header>
-    <nav>
-      <ul class="nav-container">
-        <li>Home</li>
-        <li>
-          Programming Language
-          <!-- <ul>
-              <li><a href="pages/cs/">C#</a></li>
-              <li><a href="pages/python/">Python</a></li>
-              <li><a href="pages/html/">HTML</a></li>
-              <li><a href="pages/css/">CSS</a></li>
-              <li><a href="pages/js/">JavaScript</a></li>
-            </ul> -->
-        </li>
-        <li>Useful links</li>
-        <li>
-          About me
-          <!-- <ul>
-              <li>
-                <a href="https://www.linkedin.com/in/cedric-ko/">Linked in</a>
-              </li>
-              <li><a href="https://github.com/yacmov">GitHub</a></li>
-            </ul> -->
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <p>Main Page</p>
-    <label for=""><a href="https://yacmov.github.io/Responsive_Web_Design_-_PJ-01_Survey_Form/">Portfolio 1 - (HTML,
-        CSS) Survey form</a></label>
-    <br>
-    <br>
-    <label for=""><a href="https://yacmov.github.io/Responsive_Web_Design_-_PJ-02_Tribute_Page/">Portfolio 2 - (HTML,
-        CSS) Tribute Page</a></label>
-    <br>
-    <br>
-  </main>
-  <footer>&copy; Cedric</footer>
-</body>
-
+  <body
+    id="scroll-container"
+    class="bg-index grid place-items-center w-full h-screen"
+  >
+    <header>
+      <button id="hamburger-button" class="cursor-pointer sm:hidden">
+        <img
+          class="pl-5 pt-3 w-16 h-16 absolute top-0 left-2"
+          src="./assets/img/logo/hambuger-menu.png"
+          alt="menu icon"
+        />
+      </button>
+      <h1
+        class="hidden sm:flex sm:flex-row-reverse sm:justify-end sm:text-6xl sm:mt-3 sm:justify-items-center sm:ml-4 sm:mb-4"
+      >
+        <a href="/">Ages Doesn't Matter</a>
+        <img
+          class="-m-4 mr-10 w-28 h-28 block"
+          src="./assets/img/logo/logo.png"
+          alt="Ages Doesn't Matter Logo"
+        />
+      </h1>
+      <img
+        class="w-96 h-96 block sm:hidden"
+        src="./assets/img/logo/logo.png"
+        alt="Ages Doesn't Matter Logo"
+      />
+      <nav>
+        <ul
+          class="hidden nav-links sm:flex space-x-8 text-xl"
+          aria-label="main-navigation"
+        >
+          <li><a href="./pages/index.html">Home</a></li>
+          <li><a href="./pages/contact.html">Contact Me</a></li>
+          <li><a href="./pages/about.html">About Me</a></li>
+          <li><a href="./pages/resume.html">Résumé</a></li>
+          <li><a href="./pages/projects.html">Projects</a></li>
+          <li><a href="./pages/mywork.html">Sample Projects</a></li>
+        </ul>
+      </nav>
+      <section
+        id="mobile-menu"
+        class="absolute top-0 left-0 w-full bg-pearlbush text-5xl flex-col justify-center origin-left animate-open-menu hidden"
+      >
+        <button class="text-8xl self-end px-6 text-black">&times;</button>
+        <h2 class="pl-10">Menu</h2>
+        <nav
+          class="flex flex-col min-h-screen items0center py-8 aria-label='mobile"
+        >
+          <a
+            href="./index.html"
+            class="text-black w-full text-left ml-20 text-3xl py-6 hover:opacity-90"
+            >HOME</a
+          >
+          <a
+            href="./pages/contact.html"
+            class="text-black w-full ml-20 text-3xl py-6 hover:opacity-90"
+            >Contact Me</a
+          >
+          <a
+            href="./pages/about.html"
+            class="text-black w-full ml-20 text-3xl py-6 hover:opacity-90"
+            >About Me</a
+          >
+          <a
+            href="./pages/resume.html"
+            class="text-black w-full ml-20 text-3xl py-6 hover:opacity-90"
+            >Résumé</a
+          >
+          <a
+            href="./pages/projects.html"
+            class="text-black w-full ml-20 text-3xl py-6 hover:opacity-90"
+            >Projects</a
+          >
+          <a
+            href="./pages/mywork.html"
+            class="text-black w-full ml-20 pr-24 text-3xl py-6 hover:opacity-90"
+            >Sample Projects</a
+          >
+        </nav>
+      </section>
+    </header>
+    <main class="mx-auto">
+      <section
+        id="title"
+        class="text-center flex flex-col-resvers justify-center sm:flex-row p-6 items-center gap-8 mb-12 sm:mb-40"
+      >
+        <h2 class="my-shadow sm:mt-10 text-4xl font-bold">
+          Welcome To <br class="sm:hidden" /><br class="sm:hidden" />Ages
+          doesn't <br /><br /><span
+            class="pt-20 text-7xl uppercase sm:text-9xl sm:text-center underline underline-offset-8 under"
+            >matter!</span
+          >
+        </h2>
+      </section>
+    </main>
+    <footer class="bottom-0 bg-spinodal h-full w-full">
+      <section class="flex flex-row justify-around items-start">
+        <h3 class="hidden">logo and useful links</h3>
+        <img
+          class="h-16 w-16 rounded-b-full sm:mt-2"
+          src="./assets/img/logo/logo.png"
+          alt="Logo"
+        />
+        <ul class="text-s mt-2">
+          <li class="text-xs">
+            <a href="https://www.northmetrotafe.wa.edu.au">North Metro TAFE</a>
+          </li>
+          <li class="text-xs"><a href="./contact.html">Contact me</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3 class="hidden">Copyright</h3>
+        <p class="mt-1 text-center text-xs mb-5">
+          <a href="./pages/copyright/index.html">© Copyright 2024</a> Sukhwan
+          Ko. All rights reserved.
+        </p>
+      </section>
+    </footer>
+  </body>
 </html>

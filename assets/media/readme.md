@@ -1,0 +1,4 @@
+# **Media Folder Explanation**
+
+- This **Markdown** file explains what you'll find in a typical "media" folder.
+- A **Media** folder usually contains files that have been downloaded from the internet and create by author.
