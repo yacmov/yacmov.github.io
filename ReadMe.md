@@ -1,6 +1,6 @@
 # Project Name
 
-C-WT-AT3-PROJ: Web Technologies - Final Project
+my portfolio website
 
 ## Table of Contents
 
@@ -20,9 +20,8 @@ C-WT-AT3-PROJ: Web Technologies - Final Project
 
 [BACK](#table-of-contents)
 
-This is a final project for the course Web Technologies, showcasing my understanding and application of web development skills.
+A platform where I showcase my skills and experience in web development. The website features a gallery of projects, which demonstrate my proficiency in HTML, CSS, JavaScript, and other related technologies. Visitors can explore my portfolio, learn more about my background and expertise, and even get in touch with me through the contact form.
 
-The Purpose of this project is to demonstrate my ability to create a well-structured and informative website.
 
 ## Tools Used
 
